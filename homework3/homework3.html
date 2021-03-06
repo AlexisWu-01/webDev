@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <meta charset="utf-8"> 
+  
+    <title>Homework 3</title>
+
+    <link rel="stylesheet" href="homework3.css">
+    <script src="homework3.js"></script>
+
+  </head>
+  <body>
+
+  <div id='tabs'>
+    <button class='tab' onclick="clearDisplay('display-area');setTitle('Table Example');  makeTable('test-table',sampleTableHeaders,sampleTableData)">Question 1</button>
+    <button class='tab' onclick="clearDisplay('display-area');setTitle('Sortable Table Example'); makeSortableTable('test-table',sampleTableHeaders,sampleTableData)"> Question 2</button>
+    <button class='tab' onclick="clearDisplay('display-area');setTitle('Filterable List Example'); makeFilterableList('filter-input','filter-list',sampleItems)">Question 3</button>
+  </div>
+
+
+  <div id='display-area'>
+  </div>
+
+   
+
+  </body>
+  
+</html>
+
